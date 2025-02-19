@@ -23,6 +23,8 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 | `datasets.csv`  | Collection of datasets in CSV format     |
 | `README.md`     | This file with explanations              |
 
+---
+
 ## 🔍 Criterion Description
 
 | Column        | Description                        |
