@@ -5,8 +5,7 @@
 This repository was created as part of the publication **"[Paper Title]"**. It provides an alphabetically organized table offering an overview of various 3D datasets, along with key selection criteria such as publication year and areas of application."
 
 - **Authors:** <br>
-  M.Sc. Jessica Buchner<sup>1,2</sup>, M.Sc. Janine Buchholz<sup>2</sup>, <br>
-  Prof. Dr. Thomas Klauer<sup>1</sup>, Prof. Dr. Peer Neubert<sup>2</sup>, Prof. Dr.-Ing. Dietrich Paulus<sup>2</sup> 
+  M.Sc. Jessica Buchner<sup>1,2</sup>, M.Sc. Janine Buchholz<sup>2</sup>, Prof. Dr. Thomas Klauer<sup>1</sup>, Prof. Dr. Peer Neubert<sup>2</sup>, Prof. Dr.-Ing. Dietrich Paulus<sup>2</sup> 
 
 - **Institutions:** <br>
   <sup>1</sup> Mainz University, Lucy-Hillebrand-Straße 2, 55128 Mainz, Germany <br>
