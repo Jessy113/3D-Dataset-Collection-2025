@@ -6,10 +6,10 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 
 - **Authors:** 
   M.Sc. Jessica Buchner<sup>1,2</sup>, M.Sc. Janine Buchholz<sup>2</sup>, 
-  Prof. Dr. Thomas Klauer<sup>1</sup>, Prof. Dr. Peer Neubert<sup>2</sup>, Prof. Dr.-Ing. Dietrich Paulus<sup>2</sup>
+  Prof. Dr. Thomas Klauer<sup>1</sup>, Prof. Dr. Peer Neubert<sup>2</sup>, Prof. Dr.-Ing. Dietrich Paulus<sup>2</sup> 
 
-- **Institutions:**  
-  <sup>1</sup> Mainz University, Lucy-Hillebrand-Straße 2, 55128 Mainz, Germany
+- **Institutions:** 
+  <sup>1</sup> Mainz University, Lucy-Hillebrand-Straße 2, 55128 Mainz, Germany 
   <sup>2</sup> University of Koblenz, Universitätsstraße 1, 56072 Koblenz, Germany
 
 - **Last updated:** 
