@@ -6,7 +6,7 @@ import seaborn as sns
 #-------------------------------------------------------------------------
 
 # Link to file
-csv_file = "Dataset-Table\datasets.csv"
+csv_file = "yourpath\datasets.csv"
 
 #-------------------------------------------------------------------------
 
