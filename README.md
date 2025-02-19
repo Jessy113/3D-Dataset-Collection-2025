@@ -18,10 +18,11 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 
 ## 📂 File Structure
 
-| File            | Description                              |
-| --------------- | ---------------------------------------- |
-| `datasets.csv`  | Collection of datasets in CSV format     |
-| `README.md`     | This file with explanations              |
+| File                 | Description                              |
+| -------------------- | ---------------------------------------- |
+| `datasets.csv`       | Collection of datasets in CSV format     |
+| `PlotStatistics.py`  | Python file for visualizing Statistics   |
+| `README.md`          | This file with explanations              |
 
 ---
 
