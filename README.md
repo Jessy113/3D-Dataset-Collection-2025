@@ -25,7 +25,7 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 
 ---
 
-## 🔍 Criterion Description
+## 🔍 Dataset Table Description
 
 | Column           | Description                                      |
 | ---------------- | ------------------------------------------------ |
@@ -45,6 +45,13 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 | `No. Classes`    | Number of classes in the dataset                 |
 | `Classes`        | List of classes in the dataset                   |
 | `...`            | ...                                              |
+
+**Note on CSV Delimiters:**
+Please note that different regions use different delimiters for CSV files:
+- USA/UK: Typically use commas (,) as the delimiter.
+- Germany/Europe: Typically use semicolons (;) as the delimiter.
+The datasets.csv file is stored using commas as the separator to improve compatibility across different systems and regions.
+
 
 ---
 
