@@ -27,12 +27,24 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 
 ## 🔍 Criterion Description
 
-| Column        | Description                        |
-| ------------- | ---------------------------------- |
-| `Dataset`     | Name of the dataset                |
-| `Paper Title` | Paper the dataset was published in |
-| `Year`        | Year of publication of the paper   |
-| `...`         | ...                                |
+| Column           | Description                                      |
+| ---------------- | ------------------------------------------------ |
+| `Dataset`        | Name of the dataset                              |
+| `Reference`      | Citation of the corresponding paper              |
+| `Year`           | Year of publication                              |
+| `Publisher`      | Conference or journal where published            |
+| `Content`        | Description of the content of the dataset        |
+| `Application`    | Applications areas of the dataset                |
+| `No. Papers`     | Number of papers mentioning the dataset          |
+| `No. Benchmarks` | Number of benchmarks associated with the dataset |
+| `Indoor/Outdoor` | Indicates if the dataset is indoor or outdoor    |
+| `Synthetic/Real` | Indicates if the data is synthetic or real       |
+| `Dataset Size`   | Size of the dataset (e.g., number of samples)    |
+| `Data Type`      | Type of data (e.g., images, point clouds)        |
+| `Ground Truth`   | Availability and type of annotations             |
+| `No. Classes`    | Number of classes in the dataset                 |
+| `Classes`        | List of classes in the dataset                   |
+| `...`            | ...                                              |
 
 ---
 
