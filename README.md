@@ -1,4 +1,4 @@
-# 📊 Open 3D dataset Collection: A Guide for Choosing Relevant 3D Datasets
+# 📊 Open 3D dataset Collection: A Guideline for Choosing Relevant 3D Datasets
 
 ## 📌 Description
 
