@@ -4,26 +4,15 @@
 
 This repository was created as part of the publication **"[Paper Title]"**. It provides an alphabetically organized table offering an overview of various 3D datasets, along with key selection criteria such as publication year and areas of application."
 
-### Authors
+### Authors:
+    M.Sc. Jessica Buchner<sup>1,2</sup>, M.Sc. Janine Buchholz<sup>2</sup>, 
+    Prof. Dr. Thomas Klauer<sup>1</sup>, Prof. Dr. Peer Neubert<sup>2</sup>, Prof. Dr.-Ing. Dietrich Paulus<sup>2</sup>
+    
+    <sup>1</sup> Mainz University, Lucy-Hillebrand-Straße 2, 55128 Mainz, Germany
+    <sup>2</sup> University of Koblenz, Universitätsstraße 1, 56072 Koblenz, Germany
 
-- **M.Sc. Jessica Buchner**<sup>1,2</sup>  
-- **M.Sc. Janine Buchholz**<sup>2</sup>  
-- **Prof. Dr. Thomas Klauer**<sup>1</sup>  
-- **Prof. Dr. Peer Neubert**<sup>2</sup>  
-- **Prof. Dr.-Ing. Dietrich Paulus**<sup>2</sup>  
-
-### Institutions
-
-1. <sub>**Mainz University**</sub>, Lucy-Hillebrand-Straße 2, 55128 Mainz, Germany  
-2. <sub>**University of Koblenz**</sub>, Universitätsstraße 1, 56072 Koblenz, Germany  
-
-### License
-
-This dataset collection is available under the **CC BY 4.0** licence. Please review the individual dataset licenses for specific terms of use.
-
-### Last updated
-
-2025-02-19
+- **Last updated:** 
+    2025-02-19
 
 ## 📂 File Structure
 
@@ -31,14 +20,6 @@ This dataset collection is available under the **CC BY 4.0** licence. Please rev
 | --------------- | ---------------------------------------- |
 | `datasets.csv`  | Collection of datasets in CSV format     |
 | `README.md`     | This file with explanations              |
-
-## 📥 Download & Use
-
-The dataset collection can be downloaded directly from this repository:
-
-```bash
-git clone https://github.com/[your-username]/[repo-name].git
-```
 
 ## 🔍 Criterion Description
 
@@ -49,19 +30,27 @@ git clone https://github.com/[your-username]/[repo-name].git
 | `Year`        | Year of publication of the paper   |
 | `...`         | ...                                |
 
+## 📥 Download & Use
+
+The dataset collection can be downloaded directly from this repository:
+
+```bash
+git clone https://github.com/Jessy113/Dataset-Collection-2025.git
+
+```
+
+
+
 ...
 
-## 📜 Licence
+## 🔗 Citation
 
 This dataset collection is available under the **[CC BY 4.0]** license. Please cite the source when using:
 
-> [author(s)], [year]. [Title of record]. [Repository link] DOI: [if available]
+> DOI and citation information will be updated upon publication.
 
 Please review the individual dataset licenses for specific terms of use.
 
-## 🔗 DOI & Citation
-
----
 
 ## ✉️ Contact
 
