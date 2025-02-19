@@ -14,6 +14,7 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 - **Last updated:** <br>
     2025-02-19
 
+---
 
 ## 📂 File Structure
 
@@ -31,6 +32,7 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 | `Year`        | Year of publication of the paper   |
 | `...`         | ...                                |
 
+---
 
 ## 📥 Download & Use
 
@@ -41,6 +43,7 @@ git clone https://github.com/Jessy113/Dataset-Collection-2025.git
 
 ```
 
+---
 
 ## 🔗 Citation
 
@@ -50,6 +53,7 @@ This dataset collection is available under the **[CC BY 4.0]** license. Please c
 
 Please review the individual dataset licenses for specific terms of use.
 
+---
 
 ## ✉️ Contact
 
