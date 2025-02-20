@@ -36,7 +36,7 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 | `Publisher`       | Conference or journal where published             |
 | `Description`     | Description of the dataset                        |
 | `Size`            | Size of the dataset (e.g., 10 GB)                 |
-| `Type`            | Type of data (e.g., images, point clouds)         |
+| `Modality`        | Type of data (e.g., images, point clouds)         |
 | `Composition`     | Composition of data (e.g., no. scenes, meshes)    |
 | `Indoor/Outdoor`  | Indicates if the dataset is indoor or outdoor     |
 | `Synthetic/Real`  | Indicates if the data is synthetic or real        |
