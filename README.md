@@ -28,24 +28,30 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 
 ## 🔍 Dataset Table Description
 
-| Column           | Description                                      |
-| ---------------- | ------------------------------------------------ |
-| `Dataset`        | Name of the dataset                              |
-| `Reference`      | Citation of the corresponding paper              |
-| `Year`           | Year of publication                              |
-| `Publisher`      | Conference or journal where published            |
-| `Content`        | Description of the content of the dataset        |
-| `Application`    | Applications areas of the dataset                |
-| `No. Papers`     | Number of papers mentioning the dataset          |
-| `No. Benchmarks` | Number of benchmarks associated with the dataset |
-| `Indoor/Outdoor` | Indicates if the dataset is indoor or outdoor    |
-| `Synthetic/Real` | Indicates if the data is synthetic or real       |
-| `Dataset Size`   | Size of the dataset (e.g., number of samples)    |
-| `Data Type`      | Type of data (e.g., images, point clouds)        |
-| `Ground Truth`   | Availability and type of annotations             |
-| `No. Classes`    | Number of classes in the dataset                 |
-| `Classes`        | List of classes in the dataset                   |
-| `...`            | ...                                              |
+| Column            | Description                                       |
+| ----------------# | ------------------------------------------------- |
+| `Dataset`         | Name of the dataset                               |
+| `Citation`        | Citation of the corresponding paper               |
+| `Year`            | Year of publication                               |
+| `Publisher`       | Conference or journal where published             |
+
+| `Description`     | Description of the dataset                        |
+| `Size`            | Size of the dataset (e.g., 10 GB)                 |
+| `Content`         | Content of the dataset (e.g., no. scenes, meshes) |
+| `Data Type`       | Type of data (e.g., images, point clouds)         |
+
+| `Indoor/Outdoor`  | Indicates if the dataset is indoor or outdoor     |
+| `Synthetic/Real`  | Indicates if the data is synthetic or real        |
+| `Ground Truth`    | Availability and type of annotations              |
+
+| `No. Classes`     | Number of classes in the dataset                  |
+| `Classes`         | List of classes in the dataset                    |
+| `Application`     | Applications areas of the dataset                 |
+
+| `No. Papers`      | Number of papers mentioning the dataset           |
+| `No. Benchmarks`  | Number of benchmarks associated with the dataset  |
+
+| `...`             | ...                                               |
 
 **Note on CSV Delimiters:** <br>
 Please note that different regions use different delimiters for CSV files:<br>
