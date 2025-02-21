@@ -41,7 +41,7 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 | `Indoor/Outdoor`  | Indicates if the dataset is indoor or outdoor     |
 | `Synthetic/Real`  | Indicates if the data is synthetic or real        |
 | `Ground Truth`    | Availability and type of annotations              |
-| `No. Classes`     | Number of classes in the dataset                  |
+| `No. Classes`     | Number of semantic classes in the dataset         |
 | `Classes`         | List of classes in the dataset                    |
 | `Application`     | Applications areas of the dataset                 |
 | `No. Papers`      | Number of papers mentioning the dataset           |
