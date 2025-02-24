@@ -18,15 +18,25 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 
 ## 📂 File Structure
 
-``` bash
-tree -I "node_modules"
-```
-
-| File                 | Description                              |
-| -------------------- | ---------------------------------------- |
-| `datasets.csv`       | Collection of datasets in CSV format     |
-| `PlotStatistics.py`  | Python file for visualizing Statistics   |
-| `README.md`          | This file with explanations              |
+.
+├── Dataset-Collection                
+|   ├── dataset_collection.csv        
+|   └── README.md                     
+├── Dataset-Properties
+│   ├── dataset_properties.csv        
+|   └── README.md                     
+├── Dataset-Statistics
+│   ├── Statistic-Plots                 
+│   │   ├── datasets_per_publisher.png
+│   │   ├── datasets_per_year.png
+│   │   ├── indoor_outdoor_datasets.png
+│   │   ├── most_frequent_publishers.png
+│   │   ├── no_benchmarks.png
+│   │   ├── no_papers.png
+│   │   └── real_synthetic_datasets.png      
+|   ├── plot_statistics.py            
+|   └── README.md                     
+└── README.md                         
 
 ---
 
