@@ -18,6 +18,7 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 
 ## 📂 File Structure
 
+```
 .
 │   README.md
 │
@@ -42,6 +43,7 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
             no_benchmarks.png
             no_papers.png
             real_synthetic_datasets.png
+```
 
 ---
 
