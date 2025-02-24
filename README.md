@@ -18,8 +18,9 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 
 ## 📂 File Structure
 
-.
-├── Dataset-Collection                
+...
+.                                             
+├── Dataset-Collection                              
 |   ├── dataset_collection.csv        
 |   └── README.md                     
 ├── Dataset-Properties
@@ -37,6 +38,7 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 |   ├── plot_statistics.py            
 |   └── README.md                     
 └── README.md                         
+...
 
 ---
 
