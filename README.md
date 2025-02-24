@@ -19,7 +19,7 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 ## 📂 File Structure
 
 ``` bash
-./treeview.sh
+tree -I "node_modules"
 ```
 
 | File                 | Description                              |
