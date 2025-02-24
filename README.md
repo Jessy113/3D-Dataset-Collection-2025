@@ -18,6 +18,10 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
 
 ## 📂 File Structure
 
+``` bash
+./treeview.sh
+```
+
 | File                 | Description                              |
 | -------------------- | ---------------------------------------- |
 | `datasets.csv`       | Collection of datasets in CSV format     |
