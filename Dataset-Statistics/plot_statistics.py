@@ -131,7 +131,7 @@ def plot_publisher_data_bar(data, save_dir, top=False, top_n=20, stat=False, sho
         counts = counts.head(top_n)
 
         plt_title = f'Number of Datasets Published by the Top {top_n} Publishern'
-        file_name = "datasets_top_publisher.png"
+        file_name = "datasets_per_publisher_top.png"
 
     else: 
 
@@ -190,7 +190,7 @@ def plot_mention_data(data, save_dir, top=True, top_n=20, stat=False, show=False
         counts = counts.head(top_n)
 
         plt_title = f'Number of Papers Mentioning the Top {top_n} Datasets'
-        file_name = "no_top_papers.png"
+        file_name = "no_papers_top.png"
 
     else: 
 
@@ -250,7 +250,7 @@ def plot_benchmark_data(data, save_dir, top=True, top_n=20, stat=False, show=Fal
         counts = counts.head(top_n)
 
         plt_title = f'Number of Benchmarks Associated with the Top {top_n} Datasets'
-        file_name = "no_top_benchmarks.png"
+        file_name = "no_benchmarks_top.png"
 
     else: 
 
