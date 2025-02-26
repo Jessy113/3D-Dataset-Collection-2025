@@ -1,4 +1,4 @@
-# 📊 Dataset Collection
+# 📊 3D Dataset Collection
 
 ## 📌 Description
 
@@ -17,12 +17,7 @@ The dataset collection is stored in the CSV file `dataset_collection.csv`, which
 | `Year`            | Year of publication                               |
 | `Publisher`       | Conference or journal where published             |
 | `Description`     | Description of the dataset                        |
-| `Size`            | Notes on the size & content of the dataset        |
 | `Indoor/Outdoor`  | Indicates if the dataset is indoor or outdoor     |
-| `Synthetic/Real`  | Indicates if the data is synthetic or real        |
-| `Modalities`      | Type of data (e.g., images, point clouds)         |
-| `No. Classes`     | Number of semantic classes in the dataset         |
-| `Classes`         | List of classes in the dataset                    |
 | `Tasks`           | Applications areas of the dataset                 |
 | `No. Papers`      | Number of papers mentioning the dataset           |
 | `No. Benchmarks`  | Number of benchmarks associated with the dataset  |
