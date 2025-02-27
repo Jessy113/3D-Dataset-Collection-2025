@@ -8,7 +8,7 @@ This repository was created as part of the publication **"[Paper Title]"**. It p
   M.Sc. Jessica Buchner<sup>1,2</sup>, M.Sc. Janine Buchholz<sup>2</sup>, Prof. Dr. Thomas Klauer<sup>1</sup>, Prof. Dr. Peer Neubert<sup>2</sup>, Prof. Dr.-Ing. Dietrich Paulus<sup>2</sup> 
 
 - **Institutions:** <br>
-  <sup>1</sup> Mainz University, Lucy-Hillebrand-Straße 2, 55128 Mainz, Germany <br>
+  <sup>1</sup> Mainz University of Applied Science, Lucy-Hillebrand-Straße 2, 55128 Mainz, Germany <br>
   <sup>2</sup> University of Koblenz, Universitätsstraße 1, 56072 Koblenz, Germany
 
 - **Last updated:** <br>
