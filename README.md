@@ -27,7 +27,7 @@ The repository is divided into three main folders:
 │   ├── dataset_properties.csv               # Overview of dataset properties
 │   ├── README.md                            # Describes Dataset-Properties folder
 ├─ Dataset-Statistics
-│   ├── Statistic-Plots                      # Folder containing visualizations of dataset statistics
+│   ├── Statistic-Plots                      # Contains visualizations of dataset statistics
 │   │   ├── datasets_per_publisher.png
 │   │   ├── datasets_per_year.png
 │   │   ├── indoor_outdoor_datasets.png
@@ -37,7 +37,7 @@ The repository is divided into three main folders:
 │   │   └── real_synthetic_datasets.png
 │   ├── plot_statistics.py                   # Script for generating statistics plots
 │   └── README.md                            # Describes Dataset-Statistics folder  
-└── README.md                                # Main file providing an overview of the repository and its contents
+└── README.md                    # Provides an overview of the repository and its contents
 ```
 
 ---
