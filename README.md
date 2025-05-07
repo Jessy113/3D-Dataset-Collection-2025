@@ -10,7 +10,7 @@ It provides an alphabetically organized collection of various publicly available
 The repository is divided into three main folders: 
 - **[Dataset-Collection](./Dataset-Collection)**: Contains an overview of datasets, along with comparable dataset characteristics.
 - **[Dataset-Properties](./Dataset-Properties)**: Defines and describes key dataset characteristics and their relevance.
-- **[Dataset-Statistics](./Dataset-Statistics)**: Includes statistical analyses and plots generated from the dataset collection.
+- **[Dataset-Statistics](./Dataset-Statistics)**: Includes statistical analyses and plots based on the dataset collection.
 
 **Last updated:** <br>
 2025-02-19
@@ -22,13 +22,13 @@ The repository is divided into three main folders:
 ```
 .
 ├─ Dataset-Collection                                       
-│   ├── dataset_collection.csv               # Main dataset overview file
+│   ├── dataset_collection.csv               # Overview of 3D datasets
 │   └── README.md                            # Describes Dataset-Collection folder
 ├─ Dataset-Properties
-│   ├── dataset_properties.csv               # Overview of dataset properties
+│   ├── dataset_properties.csv               # Overview of dataset characteristics
 │   ├── README.md                            # Describes Dataset-Properties folder
 ├─ Dataset-Statistics
-│   ├── Statistic-Plots                      # Contains visualizations of dataset statistics
+│   ├── Statistic-Plots                      # Visualization of dataset statistics
 │   │   ├── datasets_per_publisher.png
 │   │   ├── datasets_per_year.png
 │   │   ├── indoor_outdoor_datasets.png
