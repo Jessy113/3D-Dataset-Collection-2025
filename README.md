@@ -4,11 +4,12 @@
 
 This repository was created as part of the publication **"[Paper Title]"** (see citation below). 
 
-It provides an alphabetically organized collection of various publicly available 3D datasets, along with comparable dataset characteristics (e.g. publication year, areas of application) to support researchers in selecting suitable datasets for application-specific machine learning tasks. 
+It provides an alphabetically organized collection of various publicly available 3D datasets, along with comparable dataset characteristics 
+(e.g. publication year, areas of application) to support researchers in selecting suitable datasets for application-specific machine learning tasks. 
 
 The repository is divided into three main folders: 
-- **[Dataset-Collection](./Dataset-Collection)**: Contains an overview of datasets, with comparable dataset characteristics.
-- **[Dataset-Properties](./Dataset-Properties)**: Provides definitions and descriptions of key dataset characteristics.
+- **[Dataset-Collection](./Dataset-Collection)**: Contains an overview of datasets, along with comparable dataset characteristics.
+- **[Dataset-Properties](./Dataset-Properties)**: Defines and describes key dataset characteristics and their relevance.
 - **[Dataset-Statistics](./Dataset-Statistics)**: Includes statistical analyses and plots generated from the dataset collection.
 
 **Last updated:** <br>
