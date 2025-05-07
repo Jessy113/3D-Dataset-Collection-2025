@@ -41,10 +41,7 @@ The repository is divided into three main folders:
 │   │   ├── datasets_per_publisher.png
 │   │   ├── datasets_per_year.png
 │   │   ├── indoor_outdoor_datasets.png
-│   │   ├── most_frequent_publishers.png
-│   │   ├── no_benchmarks.png
-│   │   ├── no_papers.png
-│   │   └── real_synthetic_datasets.png
+│   │   └── ...
 │   ├── plot_statistics.py                   # Script for generating statistics plots
 │   └── README.md                            # Describes Dataset-Statistics folder  
 └── README.md                                # Describes the repository and its contents
