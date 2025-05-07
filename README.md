@@ -11,8 +11,8 @@ The repository is divided into three main folders:
 - **[Dataset-Properties](./Dataset-Properties)**: Provides definitions and descriptions of key dataset characteristics.
 - **[Dataset-Statistics](./Dataset-Statistics)**: Includes statistical analyses and plots generated from the dataset collection.
 
-- **Last updated:** <br>
-    2025-02-19
+**Last updated:** <br>
+2025-02-19
 
 ---
 
