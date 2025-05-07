@@ -4,13 +4,13 @@
 
 This repository was created as part of the publication **"[Paper Title]"** (see citation below). 
 
-It provides an alphabetically organized collection of various publicly available 3D datasets, along with comparable dataset characteristics 
+It provides an alphabetically organized collection of various published 3D datasets, along with comparable dataset characteristics 
 (e.g. publication year, areas of application) to support researchers in selecting suitable datasets for application-specific machine learning tasks. 
 
 The repository is divided into three main folders: 
 - **[Dataset-Collection](./Dataset-Collection)**: Contains an overview of datasets, along with comparable dataset characteristics <br> (e.g. S3DIS, ScanNet, KITTI).
-- **[Dataset-Properties](./Dataset-Properties)**: Defines and describes key dataset characteristics and their relevance (e.g. publication year, indoor/outdoor)
-- **[Dataset-Statistics](./Dataset-Statistics)**: Includes statistical analyses and plots based on the dataset collection (e.g. distribution by publication year).
+- **[Dataset-Properties](./Dataset-Properties)**: Defines and describes key dataset characteristics and their relevance. <br> -> e.g. publication year, indoor/outdoor
+- **[Dataset-Statistics](./Dataset-Statistics)**: Includes statistical analyses and plots based on the dataset collection (e.g. distribution by publication year
 
 **Last updated:** <br>
 2025-02-19
