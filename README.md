@@ -3,7 +3,7 @@
 ## 📌 Description
 
 This repository was created as part of the publication **"[Paper Title]"** (see citation below). 
-It provides an alphabetically organized table offering an overview of various 3D datasets, along with key selection criteria such as publication year and areas of application."
+It provides an alphabetically organized table offering an overview of various 3D datasets, along with key selection criteria such as publication year and areas of application.
 
 - **Last updated:** <br>
     2025-02-19
