@@ -9,17 +9,14 @@ It provides an alphabetically organized collection of various published 3D datas
 
 The repository is divided into three main folders: 
 
-**[Dataset-Collection](./Dataset-Collection)**:  
-Contains an overview of datasets, along with comparable dataset characteristics.  
-_(e.g. S3DIS, ScanNet, KITTI)_
+- **[Dataset-Collection](./Dataset-Collection)**:
+  Contains an overview of datasets, along with comparable dataset characteristics. _(e.g. S3DIS, ScanNet, KITTI)_
 
-**[Dataset-Properties](./Dataset-Properties)**:  
-Defines and describes key dataset characteristics and their relevance.  
-_(e.g. publication year, indoor/outdoor)_
+- **[Dataset-Properties](./Dataset-Properties)**:  
+  Defines and describes key dataset characteristics and their relevance. _(e.g. publication year, indoor/outdoor)_
 
-**[Dataset-Statistics](./Dataset-Statistics)**:  
-Includes statistical analyses and plots based on the dataset collection.  
-_(e.g. distribution by publication year)_
+- **[Dataset-Statistics](./Dataset-Statistics)**:
+  Includes statistical analyses and plots based on the dataset collection. _(e.g. distribution by publication year)_
 
 **Last updated:** <br>
 2025-02-19
