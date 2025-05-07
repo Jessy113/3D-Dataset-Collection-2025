@@ -37,7 +37,7 @@ The repository is divided into three main folders:
 │   │   └── real_synthetic_datasets.png
 │   ├── plot_statistics.py                   # Script for generating statistics plots
 │   └── README.md                            # Describes Dataset-Statistics folder  
-└── README.md                    # Provides an overview of the repository and its contents
+└── README.md                                # Describes the repository and its contents
 ```
 
 ---
