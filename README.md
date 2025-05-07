@@ -3,7 +3,13 @@
 ## 📌 Description
 
 This repository was created as part of the publication **"[Paper Title]"** (see citation below). 
-It provides an alphabetically organized table offering an overview of various 3D datasets, along with key selection criteria such as publication year and areas of application.
+
+It provides an alphabetically organized collection of various publicly available 3D datasets, along with comparable dataset characteristics (e.g. publication year, areas of application) to support researchers in selecting suitable datasets for application-specific machine learning tasks. 
+
+The repository is divided into three main folders: 
+- **[Dataset-Collection](./Dataset-Collection)**: Contains an overview of datasets, with comparable dataset characteristics.
+- **[Dataset-Properties](./Dataset-Properties)**: Provides definitions and descriptions of key dataset characteristics.
+- **[Dataset-Statistics](./Dataset-Statistics)**: Includes statistical analyses and plots generated from the dataset collection.
 
 - **Last updated:** <br>
     2025-02-19
@@ -14,14 +20,14 @@ It provides an alphabetically organized table offering an overview of various 3D
 
 ```
 .
-├─ Dataset-Collection
-│   ├── dataset_collection.csv
-│   └── README.md
+├─ Dataset-Collection                                       
+│   ├── dataset_collection.csv               # Main dataset overview file
+│   └── README.md                            # Describes Dataset-Collection folder
 ├─ Dataset-Properties
-│   ├── dataset_properties.csv
-│   ├── README.md
+│   ├── dataset_properties.csv               # Overview of dataset properties
+│   ├── README.md                            # Describes Dataset-Properties folder
 ├─ Dataset-Statistics
-│   ├── Statistic-Plots
+│   ├── Statistic-Plots                      # Folder containing visualizations of dataset statistics
 │   │   ├── datasets_per_publisher.png
 │   │   ├── datasets_per_year.png
 │   │   ├── indoor_outdoor_datasets.png
@@ -29,9 +35,9 @@ It provides an alphabetically organized table offering an overview of various 3D
 │   │   ├── no_benchmarks.png
 │   │   ├── no_papers.png
 │   │   └── real_synthetic_datasets.png
-│   ├── plot_statistics.py
-│   └── README.md
-└── README.md
+│   ├── plot_statistics.py                   # Script for generating statistics plots
+│   └── README.md                            # Describes Dataset-Statistics folder  
+└── README.md                                # Main file providing an overview of the repository and its contents
 ```
 
 ---
