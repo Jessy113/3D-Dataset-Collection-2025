@@ -21,6 +21,7 @@ The dataset collection is stored in the CSV file `dataset_collection.csv`, which
 | `Tasks`           | Applications areas of the dataset                 |
 | `No. Papers`      | Number of papers mentioning the dataset           |
 | `No. Benchmarks`  | Number of benchmarks associated with the dataset  |
+| `Last Check`      | Date the properties were last checked             |
 | `...`             | ...                                               |
 
 **Note on CSV Delimiters:** <br>
