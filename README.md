@@ -7,8 +7,8 @@ This repository was created as part of the publication **"[Paper Title]"** (see 
 It provides an alphabetically organized collection of various published 3D datasets, along with comparable dataset characteristics 
 to support researchers in selecting suitable datasets for application-specific machine learning tasks. 
 
-⚠️ **Note:** This repository does *not* host any 3D datasets.  
-It only includes references to external sources where the original datasets can be accessed.
+> ⚠️ **Note:** This repository does *not* host any 3D datasets.  
+> It only includes references to external sources where the original datasets can be accessed.
 
 The repository is divided into three main folders: 
 
