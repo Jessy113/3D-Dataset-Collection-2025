@@ -1,6 +1,7 @@
 import os
 import sys
 
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -10,6 +11,17 @@ import seaborn as sns
 # Link to file
 csv_file = "Dataset-Collection\dataset_collection.csv"
 save_dir = "Dataset-Statistics\Statistic-Plots"
+
+#-------------------------------------------------------------------------
+
+def colors_from_values(values, palette_name):
+    # normalize the values to range [0, 1]
+    normalized = (values - min(values)) / (max(values) - min(values))
+    # convert to indices
+    indices = np.round(normalized * (len(values) - 1)).astype(np.int32)
+    # use the indices to get the colors
+    palette = sns.color_palette(palette_name, len(values))
+    return np.array(palette).take(indices, axis=0)
 
 #-------------------------------------------------------------------------
 
@@ -32,19 +44,36 @@ def plot_year_data(data, save_dir, stat=False, show=False):
 
     # Vertical Bar chart:
     plt.figure(figsize=(12, 6))
-    ax = sns.barplot(x=counts.index, y=counts.values, palette="plasma", hue=counts.index, legend=False)
-    
+
+    plt.rcParams["font.family"] = "Times New Roman"
+    plt.rcParams["font.size"] = 20
+   
+    #ax = sns.barplot(x=counts.index, y=counts.values, palette="plasma", hue=counts.index, legend=False)
+            # Note: activating the legend leads to an unwanted 0 in the top left corner (I do not know why)
+
+    ax = sns.barplot(x=counts.index, y=counts.values, palette=colors_from_values(counts.values,"Blues_d"))
+
+    ax.yaxis.grid(True)
+    ax.set_axisbelow(True)
+
     # show values
     for p in ax.patches:
         ax.annotate(f'{p.get_height():.0f}', 
                     (p.get_x() + p.get_width() / 2, p.get_height()),
                     ha='center', va='bottom',
-                    color='black', fontsize=12,
+                    color='black', 
                     bbox=dict(facecolor='white', edgecolor='none', boxstyle='round,pad=0.0'))
 
-    plt.title('Number of Datasets Published per Year')
-    plt.xlabel('Year')
-    plt.ylabel('Number of Datasets')
+    #ax.set_title('Number of Datasets Published per Year', pad=20)
+
+    ax.set_xlabel('Year')
+    ax.xaxis.labelpad = 10
+
+    ax.set_ylabel('Number of Datasets')
+    ax.yaxis.labelpad = 10
+
+    plt.xticks(rotation=45)
+    ax.set_ylim([0, 48])
 
     # save plot
     plt.savefig(os.path.join(save_dir, "datasets_per_year.png"), dpi=300, bbox_inches='tight')
@@ -140,21 +169,34 @@ def plot_publisher_data_bar(data, save_dir, top=False, top_n=20, stat=False, sho
 
     plt.figure(figsize=(12, 12))
 
-    ax = sns.barplot(x=counts.values, y=counts.index, palette="inferno", hue=counts.index, legend=False)
-        # Note: aktivating the legend leads to an unwanted 0 in the top left corner (I do not know why)
+    plt.rcParams["font.family"] = "Times New Roman"
+    plt.rcParams["font.size"] = 20
+
+    #ax = sns.barplot(x=counts.values, y=counts.index, palette="inferno", hue=counts.index, legend=False)
+    ax = sns.barplot(x=counts.values, y=counts.index, palette=colors_from_values(counts.values,"Blues_d"))
+
+    ax.xaxis.grid(True)
+    ax.set_axisbelow(True)
 
     # show values
     for p in ax.patches:
         ax.annotate(f'{p.get_width():.0f}', 
                     (p.get_width(), p.get_y() + p.get_height() / 2),
                     ha='left', va='center',
-                    color='black', fontsize=12, 
+                    color='black',
                     bbox=dict(facecolor='white', edgecolor='none', boxstyle='round,pad=0.2'))
         
-    plt.title(plt_title)
-    plt.xlabel('Number of Datasets per Publisher')
-    plt.ylabel('Publisher')
-        
+    #ax.set_title(plt_title, pad=20)
+
+    ax.set_xlabel('Number of Datasets per Publisher')
+    ax.xaxis.labelpad = 10
+
+    ax.set_ylabel('Publisher')
+    ax.yaxis.labelpad = 10
+
+    #plt.xticks(rotation=45)
+    #plt.yticks(rotation=45)
+
     # save plot
     plt.savefig(os.path.join(save_dir, file_name), dpi=300, bbox_inches='tight')
 
@@ -199,20 +241,34 @@ def plot_mention_data(data, save_dir, top=True, top_n=20, stat=False, show=False
 
     plt.figure(figsize=(12, 12))
 
-    ax = sns.barplot(x=counts.values, y=counts.index, palette="Reds", hue=counts.index, legend=False)
-        # Note: aktivating the legend leads to an unwanted 0 in the top left corner (I do not know why)
+    plt.rcParams["font.family"] = "Times New Roman"
+    plt.rcParams["font.size"] = 20
+
+    #ax = sns.barplot(x=counts.values, y=counts.index, palette="Reds", hue=counts.index, legend=False)
+    ax = sns.barplot(x=counts.values, y=counts.index, palette=colors_from_values(counts.values,"Blues_d"))
+
+    ax.xaxis.grid(True)
+    ax.set_axisbelow(True)
 
     # show values
     for p in ax.patches:
         ax.annotate(f'{p.get_width():.0f}', 
                     (p.get_width(), p.get_y() + p.get_height() / 2),
                     ha='left', va='center',
-                    color='black', fontsize=12, 
+                    color='black',
                     bbox=dict(facecolor='white', edgecolor='none', boxstyle='round,pad=0.2'))
         
-    plt.title(plt_title)
-    plt.xlabel('Number of Papers Mentioning the Dataset')
-    plt.ylabel('Dataset')
+    #ax.set_title(plt_title, pad=20)
+
+    ax.set_xlabel('Number of Papers Mentioning the Dataset')
+    ax.xaxis.labelpad = 10
+
+    ax.set_ylabel('Dataset')
+    ax.yaxis.labelpad = 10
+
+    #plt.xticks(rotation=45)
+    #plt.yticks(rotation=45)
+    ax.set_xlim([0, 3800])
         
     # save plot
     plt.savefig(os.path.join(save_dir, file_name), dpi=300, bbox_inches='tight')
@@ -259,21 +315,35 @@ def plot_benchmark_data(data, save_dir, top=True, top_n=20, stat=False, show=Fal
 
     plt.figure(figsize=(12, 12))
 
-    ax = sns.barplot(x=counts.values, y=counts.index, palette="Blues", hue=counts.index, legend=False)
-        # Note: aktivating the legend leads to an unwanted 0 in the top left corner (I do not know why)
+    plt.rcParams["font.family"] = "Times New Roman"
+    plt.rcParams["font.size"] = 20
+
+    #ax = sns.barplot(x=counts.values, y=counts.index, palette="Blues", hue=counts.index, legend=False)
+    ax = sns.barplot(x=counts.values, y=counts.index, palette=colors_from_values(counts.values,"Blues_d"))
+
+    ax.xaxis.grid(True)
+    ax.set_axisbelow(True)
 
     # show values
     for p in ax.patches:
         ax.annotate(f'{p.get_width():.0f}', 
                     (p.get_width(), p.get_y() + p.get_height() / 2),
                     ha='left', va='center',
-                    color='black', fontsize=12, 
+                    color='black', 
                     bbox=dict(facecolor='white', edgecolor='none', boxstyle='round,pad=0.2'))
         
-    plt.title(plt_title)
-    plt.xlabel('Number of Benchmarks Associated with the Dataset')
-    plt.ylabel('Dataset')
-        
+    #ax.set_title(plt_title)
+
+    ax.set_xlabel('Number of Benchmarks Associated with the Dataset')
+    ax.xaxis.labelpad = 10
+
+    ax.set_ylabel('Dataset')
+    ax.yaxis.labelpad = 10
+
+    #plt.xticks(rotation=45)
+    #plt.yticks(rotation=45)
+    ax.set_xlim([0, 155])
+    
     # save plot
     plt.savefig(os.path.join(save_dir, file_name), dpi=300, bbox_inches='tight')
 
@@ -293,25 +363,40 @@ def plot_inoutdoor_data(data, save_dir, stat=False, show=False):
     # Count the number of indoor / outdoor datasets 
     counts = data['Indoor/Outdoor'].str.lower().apply(lambda x: 
     'Indoor' if 'indoor' in str(x) else 'Outdoor' if 'outdoor' in str(x) 
-    else 'Mixed' if 'mixed' else 'Other' if 'other' else 'Unknown'
+    else 'Mixed' if 'mixed' in str(x) else 'Other' if 'other' in str(x) else 'Unknown'
     ).value_counts()
 
     # Vertical Bar chart:
     plt.figure(figsize=(12, 6))
-    ax = sns.barplot(x=counts.index, y=counts.values, palette='viridis', hue=counts.index, legend=False)
-        # Note: aktivating the legend leads to an unwanted 0 in the top left corner (I do not know why)
+
+    plt.rcParams["font.family"] = "Times New Roman"
+    plt.rcParams["font.size"] = 20
+
+    #ax = sns.barplot(x=counts.index, y=counts.values, palette='viridis', hue=counts.index, legend=False)
+    ax = sns.barplot(x=counts.index, y=counts.values, palette=colors_from_values(counts.values,"Blues_d"))
+
+    ax.yaxis.grid(True)
+    ax.set_axisbelow(True)
 
     # show values
     for p in ax.patches:
         ax.annotate(f'{p.get_height():.0f}', 
                     (p.get_x() + p.get_width() / 2, p.get_height()),
                     ha='center', va='bottom',
-                    color='black', fontsize=12, 
+                    color='black', 
                     bbox=dict(facecolor='white', edgecolor='none', boxstyle='round,pad=0.0'))
 
-    plt.title('Number of Indoor / Outdoor Datasets')
-    plt.xlabel('Dataset')
-    plt.ylabel('Number of Indoor / Outdoor Datasets')
+    #ax.set_title('Number of Indoor / Outdoor Datasets', pad=20)
+    ax.set_xlabel('Dataset')
+    ax.xaxis.labelpad = 10
+
+    ax.set_ylabel('Number of Indoor / Outdoor Datasets')
+    ax.yaxis.labelpad = 10
+
+    #plt.xticks(rotation=45)
+    #plt.yticks(rotation=45)
+
+    ax.set_ylim([0, 110])
 
     # save plot
     plt.savefig(os.path.join(save_dir, "indoor_outdoor_datasets.png"), dpi=300, bbox_inches='tight')
@@ -337,7 +422,8 @@ def plot_synthreal_data(data, save_dir, stat=False, show=False):
 
     # Vertical Bar chart:
     plt.figure(figsize=(12, 6))
-    ax = sns.barplot(x=counts.index, y=counts.values, palette='cividis', hue=counts.index, legend=False)
+    #ax = sns.barplot(x=counts.index, y=counts.values, palette='cividis', hue=counts.index, legend=False)
+    ax = sns.barplot(x=counts.index, y=counts.values, palette=['#4C72B0'], hue=counts.index, legend=False)
 
     # show values
     for p in ax.patches:
@@ -377,7 +463,7 @@ def main ():
     plot_year_data(data, save_dir)
 
     # Visualize the number of datasets per publisher
-    plot_publisher_data_pie(data, save_dir, top=True)
+    #plot_publisher_data_pie(data, save_dir, top=True)
     plot_publisher_data_bar(data, save_dir, top=True)
 
     # Visualize the number of papers mentioning each dataset    
@@ -390,7 +476,7 @@ def main ():
     plot_inoutdoor_data(data, save_dir)
 
     # Visualize the number of synthetic / real datasets    
-    plot_synthreal_data(data, save_dir)
+    #plot_synthreal_data(data, save_dir)
 
 #-------------------------------------------------------------------------
 
