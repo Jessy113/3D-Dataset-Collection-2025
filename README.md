@@ -2,7 +2,7 @@
 
 ## 📌 Description
 
-This repository was created as part of the publication **"Analyzing 3D Datasets: Characteristics and Limitations for Open Repository Construction"** (see citation below). 
+This repository was created as part of the publication **"3D Datasets: Characteristics, Limitations and an Open Repository"** (see citation below). 
 
 It provides an alphabetically organized collection of various published 3D datasets, along with comparable dataset characteristics to support researchers in selecting suitable datasets for application-specific machine learning tasks. 
 
